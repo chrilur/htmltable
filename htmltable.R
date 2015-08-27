@@ -1,4 +1,4 @@
-# Et skript for å konvertere tabeller til HTML.
+# AN R script that converts Excel tables to HTML
 
 library(xlsx)
 tbl <- read.xlsx('tabell.xlsx', header=TRUE, stringsAsFactors=FALSE, sheetIndex=1)
